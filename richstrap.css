@@ -47,16 +47,41 @@
   width: 100%;
 }
 
-.nav {
-  /* do something */
+body {
+  position: relative;
+  margin: 0;
+  padding-top: 50px;
 }
 
+.nav-bar {
+  width: 100%;
+  background-color: #ddd;
+  position: fixed;
+  height: 50px;
+  top: 0;
+}
+
+.nav-item {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.nav-item > a {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-item > a:hover {
+  font-weight: 600;
+}
 
 
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .row:before {
