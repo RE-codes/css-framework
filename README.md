@@ -4,11 +4,12 @@ Use class = "col-x" with x being the fraction of 12. For example, class="col-1" 
 Also a very simple navbar layout:
 Use class "nav-bar" for the navbar wrapper, and use class "nav-item" for the individual items:
 
-  ```<nav class="nav-bar">
+```
+    <nav class="nav-bar">
       <ul>
         <li class="nav-item"><a href="#">Home</a></li>
         <li class="nav-item"><a href="#">About</a></li>
         <li class="nav-item"><a href="#">Contact</a></li>
         <li class="nav-item"><a href="#">Products</a></li>
       </ul>
-    </nav>```
+    </nav>
